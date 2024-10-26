@@ -9,7 +9,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
+
       home: Scaffold(
         appBar: AppBar(
           title: Text('Log Keuangan', style: TextStyle(fontFamily: 'Ida'),),
